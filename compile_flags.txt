@@ -1,0 +1,15 @@
+-x
+hip
+--offload-arch=gfx1151
+--rocm-path=C:/Program Files/AMD/ROCm/7.2
+-nogpulib
+-I"C:/Program Files/AMD/ROCm/7.2/include"
+-I"C:/Program Files/AMD/ROCm/7.2/include/hip"
+-I"C:/Program Files/AMD/ROCm/7.2/lib/clang/21/include"
+-I"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/include"
+-I"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt"
+-I"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared"
+-I"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um"
+-D__HIP_PLATFORM_AMD__
+-D__HIPCC__
+-D_CRT_SECURE_NO_WARNINGS
